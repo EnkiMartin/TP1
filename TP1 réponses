@@ -1,0 +1,31 @@
+2) un Dépôt Git vide a été initialisé dans /home/pltguest/.git/
+
+5) toujours aucun commit mais fichier modifiable
+
+7) il y a maintenant un commit
+
+8) commit 5f88c0a68708abcceb5979eb0723b70546e371b6 (HEAD -> master)
+Author: EnkiMartin <enki.mrt@gmail.com>
+Date:   Mon Nov 20 14:39:29 2023 +0100
+
+    Un superMessage
+
+diff --git a/votrefichier b/votrefichier
+new file mode 100644
+index 0000000..9daeafb
+--- /dev/null
++++ b/votrefichier
+@@ -0,0 +1 @@
++test
+
+nous montre les commit
+
+9) nous montre les dernières modifs du fichier
+
+11) je trouve les fichiers ajoutés
+
+Exercice 2
+
+Erreur : remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Échec d'authentification pour 'https://github.com/Polytech-Sorbonne-OPI-2023/TP1-EX2/'
