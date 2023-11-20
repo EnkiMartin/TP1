@@ -1,0 +1,64 @@
+Ex 1
+
+2) .git a été crée
+3) Sur la branche master
+
+Aucun commit
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	git.txt
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+
+Je peux pas suivre l'historique des versions de ce fichier
+
+5)
+Sur la branche master
+
+Aucun commit
+
+Modifications qui seront validées :
+  (utilisez "git rm --cached <fichier>..." pour désindexer)
+	nouveau fichier : git.txt
+	nouveau fichier : un_fichier.txt
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	modifié :         git.txt
+	
+5.Sur la branche master
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	modifié :         git.txt
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+
+8) git log -p : 
+    version2
+
+diff --git a/git.txt b/git.txt
+new file mode 100644
+index 0000000..cc2a6ff
+--- /dev/null
++++ b/git.txt
+@@ -0,0 +1,15 @@
++Ex 1
++
++2) .git a été crée
++3) Sur la branche master
++
++Aucun commit
++
++Fichiers non suivis:
++  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
++       git.txt
++
+
+ancienne version
+
+9) git diff = différences
+
+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
